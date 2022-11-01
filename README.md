@@ -36,7 +36,7 @@ To use the `aera` module a python virtual environment with python>=3.8 is needed
 
 ## Installation
 1. Download the AERA source code from GitHub
-   (https://github.com/Jete90/AERA)
+   (https://github.com/friedrichs-repo/AERA_experimental)
    ```
    git clone https://github.com/friedrichs-repo/AERA_experimental
    ```
