@@ -18,7 +18,7 @@ import aera
 
 MIN_YEAR = 1751
 MAX_YEAR = 2300
-
+MAX_YEAR_DF = 2700
 
 def validate_df(df, year_x, model_start_year):
     """Validate whether all neccessary data is contained in `df`."""
@@ -138,4 +138,4 @@ def get_base_df():
     df = df[['rf_non_co2', 'non_co2_emission', 'lu_emission',
              'ff_emission', 'temp', 'co2_conc','n2o_conc']]
 
-    return df.loc[MIN_YEAR:2499]
+    return df.loc[MIN_YEAR:MAX_YEAR_DF]

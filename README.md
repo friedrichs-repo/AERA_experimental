@@ -1,5 +1,8 @@
 # Adaptive Emission Reduction Approach (AERA)
 
+## Attention:
+This is a fork of the original AERA repository under https://github.com/Jete90/AERA
+
 This module implements the AERA algorithm developed
 by Terhaar et al. (in review), i.e. an algorithm to iteratively
 calculate fossil fuel CO2 emissions (every 5 years) which
