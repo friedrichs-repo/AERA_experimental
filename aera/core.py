@@ -51,8 +51,8 @@ def calculate_anth_co2_rf(co2_conc, n2o_conc):
 
     Camax = C0 - (b1/(2*a1))
 
-    co2_conc_ts = co2_conc.loc[1700:2499].values
-    n2o_conc_ts = n2o_conc.loc[1700:2499].values
+    co2_conc_ts = co2_conc.loc[1700:2700].values
+    n2o_conc_ts = n2o_conc.loc[1700:2700].values
     length = co2_conc_ts.shape[0]
     
     # Calculate alpha for the pure CO2 effect
